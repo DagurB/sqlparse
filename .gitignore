@@ -20,3 +20,6 @@ extras/py3k/tests.diff
 coverage.xml
 *.class
 .pytest_cache
+tags
+tags.lock
+tags.temp
