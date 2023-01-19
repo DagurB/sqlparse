@@ -93,6 +93,13 @@ def create_parser():
         help='reindent statements')
 
     group.add_argument(
+        '-c', '--indent-tabs',
+        dest='indent_tabs',
+        action='store_true',
+        default=True,
+        help='Use proper indentation')
+
+    group.add_argument(
         '--indent_width',
         dest='indent_width',
         default=2,
